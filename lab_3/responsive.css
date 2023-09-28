@@ -1,0 +1,35 @@
+/* Додаткові стилі для адаптивного дизайну */
+@media (max-width: 768px) {
+    /* Стилі для планшетів */
+    main {
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    section, form {
+        margin: 10px 0;
+        padding: 10px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: calc(100% - 10px);
+    }
+}
+
+@media (max-width: 480px) {
+    /* Стилі для мобільних пристроїв */
+    body {
+        font-size: 14px;
+    }
+
+    h1, h2 {
+        font-size: 18px;
+    }
+
+    nav a {
+        margin: 0 5px;
+        padding: 5px 8px;
+    }
+}

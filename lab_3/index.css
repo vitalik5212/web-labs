@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background: #f4f9fd;
+    color: #2c3e50;
+}
+
+main {
+    margin: 20px;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #3498db;
+}
+
+main section {
+    margin-bottom: 20px;
+}
+
+main section#main-features ul > li:nth-of-type(even) {
+    background: #ecf4f8;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+thead tr {
+    background-color: #3498db;
+    color: white;
+}
+
+td, th {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+form {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    background: #ffffff;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+input[type="submit"] {
+    background: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+h1 {
+    animation: fadeIn 2s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
